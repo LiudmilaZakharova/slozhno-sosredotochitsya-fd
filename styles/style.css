@@ -93,7 +93,7 @@
   display: block;
   inline-size: 100%;
   padding: 0.094rem 0.813rem;
-  background-color: transparent;  
+  background-color: transparent;
   color: var(--button-text-color);
   text-transform: lowercase;
   font-weight: var(--fw-normal);
@@ -243,7 +243,7 @@ a:focus-visible {
 @media (width >= 768px) {
   :root {
     --margin-inline: 1.25rem;
-    --margin-block:  3.75rem;
+    --margin-block: 3.75rem;
     --paddings: 1.25rem;
   }
 
@@ -257,11 +257,11 @@ a:focus-visible {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
     margin-inline-start: -1.25rem;
   }
-  
+
   .header__paragraph {
     inline-size: calc(50vw - var(--margin-inline));
   }
-  
+
   .main {
     gap: 5rem;
   }
@@ -277,19 +277,19 @@ a:focus-visible {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  
+
   .why .section__content {
     grid-column: 2 / 3;
   }
-  
+
   .what {
     display: grid;
     grid-template-columns: repeat (3, 1fr);
     grid-column: span 3;
     gap: var(--grid-gap);
   }
-  
-   .what .section__title {
+
+  .what .section__title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
@@ -300,12 +300,12 @@ a:focus-visible {
     grid-column: span 3;
     gap: var(--grid-gap);
   }
-  
+
   .how .section__title {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  
+
   .how .section__content {
     grid-column: 2 / 3;
   }
@@ -316,7 +316,7 @@ a:focus-visible {
     grid-column: span 3;
     gap: var(--grid-gap);
   }
-   
+
   .gallary {
     grid-column: span 3;
     grid-template-columns: repeat(3, 1fr);
@@ -326,7 +326,7 @@ a:focus-visible {
   .gallary .article__title {
     grid-column: span 3;
   }
-  
+
   .gallery__item {
     object-fit: cover;
   }
@@ -338,7 +338,7 @@ a:focus-visible {
   .gallery__item:nth-child(3) {
     grid-row: span 2;
   }
-  
+
   .gallery__item:nth-child(4) {
     grid-row: span 2;
   }
@@ -350,7 +350,7 @@ a:focus-visible {
   .gallery__item:nth-child(6) {
     grid-column: span 2;
   }
-  
+
   .footer {
     min-block-size: 1024px;
     padding: var(--paddings);
@@ -384,7 +384,7 @@ a:focus-visible {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  
+
   .why .section__content {
     grid-column: 2 / -1;
   }
@@ -401,7 +401,7 @@ a:focus-visible {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
   }
-  
+
   .how .section__content {
     grid-column: 2 / -1;
   }
