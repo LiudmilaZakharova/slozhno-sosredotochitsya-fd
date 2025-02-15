@@ -242,9 +242,9 @@ a:focus-visible {
 
 @media (width >= 768px) {
   :root {
-    --margin-inline: 20px;
-    --margin-block:  60px;
-    --paddings: 20px;
+    --margin-inline: 1.25rem;
+    --margin-block:  3.75rem;
+    --paddings: 1.25rem;
   }
 
   .header {

@@ -4,15 +4,15 @@
 */
 :root {
   --main-font-family: IBM Plex mono, sans-serif;
-  --main-font-size: 18px;
+  --main-font-size: 1.125rem;
   --fw-bold: 700;
   --fw-normal: 400;
   --main-line-height: 1.3;
-  --grid-gap: 20px;
-  --article-gap: 10px;
-  --margin-inline: 10px;
-  --margin-block: 40px;
-  --paddings: 10px;
+  --grid-gap: 1.25rem;
+  --article-gap: 0.625rem;
+  --margin-inline: 0.625rem;
+  --margin-block: 2.5rem;
+  --paddings: 0.625rem;
 
   --bg-color: #000028;
   --main-text-color: #f1b2ce;
