@@ -13,6 +13,7 @@
   --transparent-border: #FF007066;
   --title-color: var(--accent-color);
   --title-decoration-color: var(--bg-color);
+  --corner-color: var(--accent-color);
   --shadow-color: var(--accent-color);
   --big-text-color: #DB00FF;
   --bg-image: url(../images/cover-image-dark.png);

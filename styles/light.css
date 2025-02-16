@@ -11,9 +11,10 @@
   --button-text-color: var(--main-text-color);
   --button-border: var(--main-text-color);
   --transparent-border: #35343066;
-  --title-color: var(--accent-color);
-  --title-decoration-color:var(--bg-color);
+  --title-color: var(--main-text-color);
+  --title-decoration-color:var(--main-text-color);
   --shadow-color: var(--accent-color);
+  --corner-color: var(--main-text-color);
   --big-text-color: #FFC2E6;
   --bg-image: url(../images/cover-image-light.png);
 }
@@ -30,9 +31,10 @@
     --button-text-color: var(--main-text-color);
     --button-border: var(--main-text-color);
     --transparent-border: #35343066;
-    --title-color: var(--accent-color);
-    --title-decoration-color:var(--bg-color);
+    --title-color: var(--main-text-color);
+    --title-decoration-color:var(--main-text-color);
     --shadow-color: var(--accent-color);
+    --corner-color: var(--main-text-color);
     --big-text-color: #FFC2E6;
     --bg-image: url(../images/cover-image-light.png);
 }
